@@ -29,4 +29,4 @@ for ele in libDatas:
 import pandas as pd
 df = pd.DataFrame(datas, columns=['도서관 이름', '전화번호', '주소'])
 print(df)
-print(df.to_html())
+df.to_html('도서관정보.html')
