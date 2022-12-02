@@ -25,6 +25,7 @@ def work():
         f.write(price)
         
 while True:
+    print('recall')
     work()
     time.sleep(5) # 5초 마다 work() 함수 호출
     
